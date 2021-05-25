@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GpssStudioProject FormatVersion="1">
+  <Guid>1fc9f2b7-feaf-43f6-acde-59209b350690</Guid>
+  <Name>Duplex_Communication_Channel</Name>
+  <Description>Модель работы дуплексного канала связи</Description>
+  <CreationDate>2021-05-25T17:53:02.6968467+03:00</CreationDate>
+  <SimModels>
+    <SimModel>
+      <Name>Модель 1</Name>
+      <Description></Description>
+      <Version>1</Version>
+      <CreationDate>25.05.2021 17:53:02</CreationDate>
+      <IsCurrent>True</IsCurrent>
+      <RunDate>25.05.2021 17:53:23</RunDate>
+    </SimModel>
+  </SimModels>
+  <TebsLibraries>
+    <TebsLibrary>
+      <Guid>e0617acc-f63f-4c18-a7df-5fbb9f809e69</Guid>
+      <Version>1.0.0.0</Version>
+      <Name>Библиотека ТЭБов</Name>
+      <Description></Description>
+      <CreationDate>25.05.2021 17:53:04</CreationDate>
+      <Format>0</Format>
+    </TebsLibrary>
+  </TebsLibraries>
+</GpssStudioProject>
