@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Duplex_channel:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Duplex_channel_jar</output-path>
+    <root id="archive" name="Duplex_channel.jar">
+      <element id="module-output" name="Duplex_channel" />
+    </root>
+  </artifact>
+</component>
