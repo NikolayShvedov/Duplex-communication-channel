@@ -18,7 +18,7 @@ ENTER BUF_A; Заполнение буфера в пункте А
 QUEUE BUF_A; Занятие очереди на передачу
 SEIZE CANAL_AB; Занятие канала
 DEPART BUF_A; Освобождение очереди
-ADVANCE(Exponential(1,0,10)); Передача из канала А в В (10 секунд)
+ADVANCE 10; Передача из канала А в В (10 секунд)
 RELEASE CANAL_AB; Освобождение
 LEAVE BUF_A; Удаление пакета
 TERMINATE; 
@@ -29,7 +29,7 @@ ENTER BUF_B; Заполнение буфера в пункте В
 QUEUE BUF_B; Занятие очереди на передачу
 SEIZE CANAL_BA; Занятие канала
 DEPART BUF_B; Освобождение очереди
-ADVANCE (Exponential(1,0,10)); Передача из канала В в А (10 секунд)
+ADVANCE 10; Передача из канала В в А (10 секунд)
 RELEASE CANAL_BA; Освобождение
 LEAVE BUF_B; Удаление пакета
 TERMINATE;
